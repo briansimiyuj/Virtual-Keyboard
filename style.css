@@ -50,11 +50,10 @@ button:active{
     flex-grow: 1;
 }
 
-.spacebar button{
+.down button:not(.check){
     width: 100%;
     position: absolute;
     left: 15%;
-    margin-top: 5px;
 }
 
 .enter{
@@ -86,4 +85,9 @@ button:active{
 
 .text.active  button{
     text-transform: uppercase;
+}
+
+.check{
+    background-color: rgb(70, 5, 5);
+    color: #ffffff;
 }
