@@ -23,3 +23,59 @@ textarea{
     font-size:  2rem;
     max-height: 200px;
 }
+
+.keyboard{
+    max-width: 600px;
+    background-color: brown;
+    height: 200px;
+    position: relative;
+}
+
+button{
+    max-width: 400px;
+    width: 10%;
+    margin-bottom: 1rem;
+}  
+
+button:active{
+    background-color: brown;
+    outline: none;
+}
+
+.key, .text{
+    display: flex;
+}
+
+.text{
+    flex-grow: 1;
+}
+
+.spacebar button{
+    width: 100%;
+    position: absolute;
+    left: 15%;
+    margin-top: 5px;
+}
+
+.enter{
+    transform: rotate(90deg); 
+}
+
+.asdr{
+    margin: .6rem 0;
+}
+
+.caps{
+    position: relative; 
+}
+
+.caps::after{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%; 
+    background-color: red;
+    content: '';
+}    
