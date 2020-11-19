@@ -35,6 +35,7 @@ button{
     max-width: 400px;
     width: 10%;
     margin-bottom: 1rem;
+    text-align: center;
 }  
 
 button:active{
