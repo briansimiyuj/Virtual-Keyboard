@@ -27,8 +27,9 @@ textarea{
 .keyboard{
     max-width: 600px;
     background-color: brown;
-    height: 200px;
+    min-height: 200px;
     position: relative;
+    padding: 1rem;
 }
 
 button{
