@@ -2,6 +2,8 @@ const caps = document.querySelector('.caps')
 
 const texts = document.querySelectorAll('.text')
 
+const textsBTN = document.querySelectorAll('.text button')
+
 const buttons = document.querySelectorAll('button')
 
 const textArea = document.querySelector('textArea')
@@ -14,7 +16,7 @@ const space = document.querySelector('.space')
 
 const wide = document.querySelector('#wide')
 
-console.log(caps, texts, buttons, textArea, enter, check, space, wide)
+console.log(caps, texts, buttons, textArea, enter, check, space, wide, textsBTN)
 
 
 
