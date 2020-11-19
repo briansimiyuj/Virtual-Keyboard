@@ -83,3 +83,7 @@ button:active{
 .caps.active::after{
     background-color: red;
 }
+
+.text.active  button{
+    text-transform: uppercase;
+}
