@@ -17,3 +17,18 @@ const wide = document.querySelector('#wide')
 console.log(caps, texts, buttons, textArea, enter, check, space, wide)
 
 
+
+
+caps.addEventListener('click', () =>{
+
+    console.log('working')
+
+    caps.classList.toggle('active')
+    
+    texts.forEach(text => {
+        
+        text.classList.toggle('active')
+
+    })
+
+})
