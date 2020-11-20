@@ -93,6 +93,17 @@ wide.addEventListener('click', () =>{
    
    textArea.value = inp
    
-   console.log('working')
+})
+
+
+
+
+enter.addEventListener('click', () =>{
+
+    let enter = inp.value += "\n"
+
+    inp += enter
+
+    console.log('working')
 
 })
