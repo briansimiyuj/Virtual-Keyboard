@@ -80,7 +80,15 @@ check.addEventListener('click', () =>{
 textArea.addEventListener('click', () =>{
 
     keyboard.classList.add('open') 
+    
+})
 
-    console.log('working')
+
+
+wide.addEventListener('click', () =>{
+
+   let backSpace = inp.substring(0, inp.length -1)  
+
+   console.log(backSpace)
 
 })
