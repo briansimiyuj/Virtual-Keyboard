@@ -52,3 +52,16 @@ textsBTN.forEach(text => {
     })
 
 })
+
+
+
+
+space.addEventListener('click', () =>{
+
+    let blank = ' '
+
+    inp += blank    
+    
+    console.log('working')
+    
+})
