@@ -2,6 +2,8 @@ const caps = document.querySelector('.caps')
 
 const texts = document.querySelectorAll('.text')
 
+const keyboard =  document.querySelector('.keyboard')
+
 const textsBTN = document.querySelectorAll('.text button')
 
 const buttons = document.querySelectorAll('button')
@@ -18,7 +20,7 @@ const wide = document.querySelector('#wide')
 
 let inp = []
 
-console.log(caps, texts, buttons, textArea, enter, check, space, wide, textsBTN)
+console.log(caps, texts, buttons, textArea, enter, check, space, wide, textsBTN, keyboard)
 
 
 
@@ -62,6 +64,13 @@ space.addEventListener('click', () =>{
 
     inp += blank    
     
-    console.log('working')
-    
+})
+
+
+
+
+check.addEventListener('click', () =>{
+
+    keyboard.classList.add('close')
+
 })

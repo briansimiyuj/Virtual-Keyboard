@@ -30,6 +30,11 @@ textarea{
     min-height: 200px;
     position: relative;
     padding: 1rem;
+    transition: visibility .5s ease;
+}
+
+.keyboard.close{
+    visibility: hidden;
 }
 
 button{
