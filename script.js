@@ -74,3 +74,13 @@ check.addEventListener('click', () =>{
     keyboard.classList.add('close')
 
 })
+
+
+
+textArea.addEventListener('click', () =>{
+
+    keyboard.classList.add('open') 
+
+    console.log('working')
+
+})
