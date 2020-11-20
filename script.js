@@ -89,6 +89,10 @@ wide.addEventListener('click', () =>{
 
    let backSpace = inp.substring(0, inp.length -1)  
 
-   console.log(backSpace)
+   inp = backSpace
+   
+   textArea.value = inp
+   
+   console.log('working')
 
 })
