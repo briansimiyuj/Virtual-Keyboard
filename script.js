@@ -20,7 +20,7 @@ const wide = document.querySelector('#wide')
 
 let inp = []
 
-console.log(caps, texts, buttons, textArea, enter, check, space, wide, textsBTN, keyboard)
+
 
 
 
